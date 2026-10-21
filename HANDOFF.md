@@ -72,6 +72,4 @@ The six user-supplied animated GIFs were independently copied and SHA-256 verifi
 
 Several local helper files were found containing only zero bytes during handoff validation. The runtime store was recovered from its archived source and the portable test/Pages preview were reconstructed. Damaged one-time snapshot/terrain preparation helpers are preserved locally under archive/corruption-2026-10-20 and excluded from this repository pending recovery. Existing generated terrain data and the runnable app remain included. Do not rerun those private preparation helpers without recovery.
 
-Catalog visibility on 2026-10-20: 1,054 of 1,107 entries (95.2%) appear publicly; 53 (4.8%) remain private. This measures catalog entries, not original binaries or bytes. Public metadata/previews do not imply that the corresponding native source file is public.
 
-Public visibility breakdown (catalog entries): 652 public files or interactive previews (58.9%), 402 metadata-only listings with private native binaries (36.3%), and 53 fully private entries (4.8%). The six mobile GIFs remain private.
