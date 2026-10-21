@@ -1,0 +1,132 @@
+{
+  "legacy": {
+    "layout": [
+      "mountain",
+      "forest",
+      "desert",
+      "swamp",
+      "beach",
+      "volcano",
+      "ice",
+      "town",
+      "cave"
+    ],
+    "palette": {
+      "forest": [
+        20,
+        40,
+        20
+      ],
+      "desert": [
+        80,
+        70,
+        40
+      ],
+      "mountain": [
+        50,
+        50,
+        60
+      ],
+      "swamp": [
+        25,
+        35,
+        25
+      ],
+      "volcano": [
+        60,
+        25,
+        25
+      ],
+      "ice": [
+        35,
+        45,
+        65
+      ],
+      "castle": [
+        45,
+        35,
+        45
+      ],
+      "cave": [
+        15,
+        15,
+        25
+      ],
+      "beach": [
+        75,
+        65,
+        45
+      ],
+      "town": [
+        80,
+        120,
+        60
+      ]
+    }
+  },
+  "current": {
+    "layout": [
+      "mountain",
+      "forest",
+      "desert",
+      "swamp",
+      "plains",
+      "volcano",
+      "ice",
+      "town",
+      "cave"
+    ],
+    "palette": {
+      "forest": [
+        20,
+        40,
+        20
+      ],
+      "desert": [
+        80,
+        70,
+        40
+      ],
+      "mountain": [
+        50,
+        50,
+        60
+      ],
+      "swamp": [
+        25,
+        35,
+        25
+      ],
+      "volcano": [
+        60,
+        25,
+        25
+      ],
+      "ice": [
+        35,
+        45,
+        65
+      ],
+      "castle": [
+        45,
+        35,
+        45
+      ],
+      "cave": [
+        15,
+        15,
+        25
+      ],
+      "plains": [
+        58,
+        92,
+        46
+      ],
+      "town": [
+        80,
+        120,
+        60
+      ]
+    }
+  }
+}
