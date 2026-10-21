@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Swarmfall: Drone Invasion</title>
+    <meta name="description" content="Drop drone swarms on planet after planet in a galaxy campaign: take each world by force or by quiet control, under storms, eruptions and an alarmed public. Built from the Dragonfly Titan simulator; unlock NASA's Dragonfly as a drone." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2306070f'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%237ce7ff'/%3E%3Cg stroke='%237ce7ff' stroke-width='4' stroke-linecap='round'%3E%3Cpath d='M14 14l10 10M50 14L40 24M14 50l10-10M50 50L40 40'/%3E%3C/g%3E%3Cg fill='%23ffb457'%3E%3Ccircle cx='12' cy='12' r='5'/%3E%3Ccircle cx='52' cy='12' r='5'/%3E%3Ccircle cx='12' cy='52' r='5'/%3E%3Ccircle cx='52' cy='52' r='5'/%3E%3C/g%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./invasion.css?v=dev" />
+  </head>
+  <body>
+    <section id="screen-title" class="screen active" aria-labelledby="game-title">
+      <canvas id="title-stars" aria-hidden="true"></canvas>
+      <div class="title-card">
+        <p class="kicker">A Dragonfly Titan simulator spin-off</p>
+        <h1 id="game-title">Swarmfall</h1>
+        <p class="tagline">Drop drone swarms on world after world. Take each planet by force or by quiet control, before its people and its weather take your swarm apart.</p>
+        <div class="title-actions">
+          <button id="resume-button" class="primary" type="button" hidden>Resume mission</button>
+          <button id="play-button" class="primary" type="button">Play campaign</button>
+          <button id="reset-button" class="ghost" type="button">Reset progress</button>
+          <button id="save-files-button" class="ghost" type="button">Save files</button>
+        </div>
+        <section id="save-notice" class="save-notice" aria-label="Saved data needs attention" hidden><p id="save-notice-text" role="status"></p><button id="save-review" type="button">Review saved data</button></section>
+        <p id="title-progress" class="title-progress"></p>
+        <p class="title-foot"><a href="./environments/">Asset &amp; Environment Lab</a> · <a href="../">Dragonfly Titan simulator</a> · <span data-build-stamp>Build local</span></p>
+      </div>
+    </section>
+
+    <section id="screen-galaxy" class="screen" aria-label="Campaign galaxy">
+      <header class="bar">
+        <button id="galaxy-back" class="ghost" type="button">‹ Title</button>
+        <h2>Campaign galaxy</h2>
+        <div class="bar-stats">
+          <span title="Matter in the Hive's bank. Each planet guarantees a minimum supply.">Matter <strong id="bank-matter">0</strong></span>
+          <span title="Total payload slots per squad wave; up to 3 drones in each pod">Wave <strong id="bank-pod">12</strong> slots</span>
+          <span>Drones <strong id="bank-drones"></strong></span>
+        </div>
+        <button id="achievements-button" class="ghost" type="button">Achievements <span id="achievement-count"></span></button>
+      </header>
+      <div class="galaxy-body">
+        <canvas id="galaxy-canvas" aria-label="Campaign galaxy map: tap a planet"></canvas>
+        <aside id="planet-panel" class="panel" aria-live="polite"></aside>
+      </div>
+    </section>
+
+    <section id="screen-mission" class="screen" aria-label="Invasion">
+      <canvas id="mission-canvas" aria-hidden="true"></canvas>
+      <canvas id="mission-overlay" aria-label="Battlefield: left-click selects, right-click orders; on touch, tap drones to select and tap the ground to order. Drag to pan, right-drag to rotate."></canvas>
+      <header class="hud-top">
+        <div class="hud-planet"><strong id="hud-planet">Planet</strong><span id="hud-zones">0/0 zones</span></div>
+        <div class="hud-stat"><span>Matter</span><strong id="hud-matter">0</strong></div>
+        <div class="hud-stat hud-alarm" id="hud-alarm-box" title="Public alarm. Violence and visible drones raise it; Links calm it. High alarm brings militia raids, stronger defenses and artillery.">
+          <span>Public <em id="hud-mood">Calm</em></span>
+          <div class="meter"><div id="hud-alarm" class="meter-fill"></div><i style="left: 25%"></i><i style="left: 50%"></i><i style="left: 75%"></i></div>
+        </div>
+        <div id="hud-hazard" class="hud-hazard" hidden></div>
+        <div class="hud-stat"><span>Time</span><strong id="hud-time">0:00</strong></div>
+        <div class="hud-buttons">
+          <button id="pause-button" type="button" title="Pause (Space)">Pause</button>
+          <button id="speed-button" type="button" title="Game speed">1×</button>
+          <button id="extract-button" type="button" class="primary" hidden>Leave for victory</button>
+          <button id="retreat-button" type="button" class="danger" title="End the mission and recall the swarm">Retreat</button>
+        </div>
+      </header>
+      <aside class="hud-left">
+        <details id="objectives-box" class="panel small" open>
+          <summary>Objectives</summary>
+          <ul id="objective-list"></ul>
+          <p id="coach" class="coach" hidden></p>
+        </details>
+        <ol id="hud-log" class="hud-log" aria-live="polite"></ol>
+      </aside>
+      <canvas id="minimap" aria-label="Map overview: tap to move the view"></canvas>
+      <div class="hud-bottom">
+        <div id="squad-bar" class="squad-bar" role="toolbar" aria-label="Squads"></div>
+        <div class="command-buttons">
+          <button id="all-button" type="button" title="Select every squad (0)">All squads</button>
+          <button id="hold-button" type="button" title="Stop and hold position (H)">Hold</button>
+          <button id="drop-button" type="button" class="primary" title="Call a squad wave of parachute pods (B)">Drop wave</button>
+        </div>
+      </div>
+      <div id="drop-panel" class="panel drop-panel" hidden>
+        <header><h3>Drop wave</h3><button id="drop-close" class="ghost" type="button" aria-label="Close">×</button></header>
+        <div id="drop-rows" class="drop-rows"></div>
+        <p id="drop-summary" class="drop-summary"></p>
+        <p id="drop-reason" class="drop-reason"></p>
+        <div class="drop-actions">
+          <button id="drop-home" class="primary" type="button">Land on the Hive beacon</button>
+          <button id="drop-pick" type="button">Pick a zone…</button>
+        </div>
+      </div>
+      <div id="placement-hint" class="placement-hint" hidden><span id="placement-text">Tap a held zone to preview its pod courts.</span> <button id="placement-launch" type="button" disabled>Launch here</button> <button id="placement-cancel" type="button">Cancel</button></div>
+      <button id="clean-view-button" class="clean-view-button" type="button" aria-pressed="false" title="Hide panels and labels (V)">Clean view · V</button>
+      <div id="toasts" class="toasts" aria-live="polite"></div>
+    </section>
+
+    <dialog id="victory-dialog" class="dialog" aria-labelledby="victory-title" aria-describedby="victory-remaining victory-rules">
+      <h2 id="victory-title">Victory is yours to claim</h2>
+      <p id="victory-remaining"></p>
+      <p id="victory-rules">The battle is paused for this choice. Victory stays available if zones are retaken, but total defeat can still lose the mission. Optional stars and time goals finalize when you leave. Surviving drones return for half their cost; unreleased cargo is fully refunded.</p>
+      <div class="dialog-actions">
+        <button id="victory-continue" type="button">Continue capturing</button>
+        <button id="victory-leave" class="primary" type="button">Leave for victory</button>
+      </div>
+    </dialog>
+
+    <dialog id="debrief" class="dialog">
+      <h2 id="debrief-title">Mission over</h2>
+      <p id="debrief-stars" class="stars" aria-label="Stars"></p>
+      <ul id="debrief-objectives" class="objective-list"></ul>
+      <dl id="debrief-stats" class="stat-grid"></dl>
+      <ul id="debrief-notes" class="notes"></ul>
+      <p id="settlement-status" role="status" hidden></p>
+      <div class="dialog-actions">
+        <button id="settlement-retry" type="button" hidden>Retry saving result</button>
+        <button id="debrief-retry" type="button">Try again</button>
+        <button id="debrief-galaxy" class="primary" type="button">Back to the galaxy</button>
+      </div>
+    </dialog>
+
+    <dialog id="achievements-dialog" class="dialog">
+      <h2>Achievements</h2>
+      <ul id="achievement-list" class="achievement-list"></ul>
+      <div class="dialog-actions"><button id="achievements-close" class="primary" type="button">Close</button></div>
+    </dialog>
+
+    <dialog id="save-dialog" class="dialog" aria-labelledby="save-title" aria-describedby="save-summary">
+      <h2 id="save-title">Save files &amp; recovery</h2>
+      <p id="save-summary"></p><p id="save-record" class="muted"></p>
+      <div class="dialog-actions"><button id="save-download-session" type="button">Download this session</button><button id="save-download-original" type="button">Download original file</button></div>
+      <section id="save-backups" hidden><label for="save-backup-choice">Preserved browser backups</label><select id="save-backup-choice"></select><button id="save-download-backup" type="button">Download selected backup</button></section>
+      <p id="save-action-status" role="status"></p>
+      <div class="dialog-actions"><button id="save-retry-read" type="button">Retry reading saved data</button><button id="save-resolve" class="primary" type="button" hidden>Recover campaign data</button><button id="save-close" type="button">Close</button></div>
+    </dialog>
+
+    <dialog id="confirm-dialog" class="dialog">
+      <p id="confirm-text"></p>
+      <div class="dialog-actions">
+        <button id="confirm-no" type="button">Cancel</button>
+        <button id="confirm-yes" class="danger" type="button">Confirm</button>
+      </div>
+    </dialog>
+
+    <p id="no-webgl" class="no-webgl" hidden>This game needs WebGL. Try a recent Chrome, Edge, Firefox or Safari.</p>
+    <script type="module" src="./main.mjs?v=dev"></script>
+  </body>
+</html>
