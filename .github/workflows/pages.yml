@@ -1,0 +1,49 @@
+name: Publish asset lab to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - name: Verify portable catalog on a fresh checkout
+        run: |
+          node --input-type=module <<'JS'
+          import {createStudioServer} from './server.mjs';
+          // Build the local catalog using only the committed public snapshot.
+          const {store, server} = await createStudioServer();
+          let files = 0;
+          for (const asset of store.state.assets) {
+            if (asset.relative && asset.available !== false) {
+              await store.resolveFile(asset.id, asset.relative);
+              files++;
+            }
+          }
+          console.log(`Fresh catalog: ${store.state.assets.length} entries; ${files} media files resolved.`);
+          server.close();
+          JS
+      - uses: actions/configure-pages@v5
+      - run: npm run build:pages
+        env:
+          PAGES_BASE_PATH: /assets-and-environments-lab/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .runtime/github-pages
+      - uses: actions/deploy-pages@v4
+        id: deployment
