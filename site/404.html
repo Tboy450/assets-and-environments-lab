@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Page not found: Dragonfly Titan Simulator</title>
+    <style>
+      :root { color-scheme: dark; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #06070f; color: #e9eef8; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+      main { width: min(460px, calc(100% - 32px)); text-align: center; }
+      h1 { font-size: 22px; margin: 0 0 8px; }
+      p { color: #9aa6bd; margin: 0 0 18px; }
+      a { display: block; margin: 10px 0; padding: 12px; border-radius: 10px; border: 1px solid rgba(124, 231, 255, 0.5); color: #7ce7ff; text-decoration: none; font-weight: 600; }
+    </style>
+    <!-- GitHub Pages serves this page for any missing address on the site. A link to the game
+         that was mistyped or picked up extra characters (capital letters, "**" or ")" from a
+         chat message) is sent straight to the game; anything else gets links to both pages. -->
+    <script>
+      function notFoundTarget(pathname, projectSite) {
+        let text = pathname;
+        try { text = decodeURIComponent(pathname); } catch (error) { /* keep the raw path */ }
+        const parts = text.split("/").filter(Boolean);
+        const base = projectSite && parts.length ? `/${parts.shift()}/` : "/";
+        return /invasion|swarmfall/i.test(parts.join("/")) ? `${base}invasion/` : null;
+      }
+      const target = notFoundTarget(location.pathname, location.hostname.endsWith("github.io"));
+      if (target && target !== location.pathname) location.replace(target + location.search + location.hash);
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>Page not found</h1>
+      <p>That address doesn't match a page here. Pick one:</p>
+      <a id="simulator-link" href="/">Dragonfly Titan simulator</a>
+      <a id="game-link" href="/invasion/">Swarmfall: Drone Invasion (game)</a>
+    </main>
+    <script>
+      const site = location.hostname.endsWith("github.io") ? `/${location.pathname.split("/").filter(Boolean)[0] || ""}/`.replace("//", "/") : "/";
+      document.getElementById("simulator-link").href = site;
+      document.getElementById("game-link").href = `${site}invasion/`;
+    </script>
+  </body>
+</html>
