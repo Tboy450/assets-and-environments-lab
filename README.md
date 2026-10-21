@@ -22,7 +22,7 @@ The original Swarmfall environments and Import Demo remain available as separate
 
 Explorer keeps a large interactive preview beside the asset tray. Grid retains the earlier card layout. Worlds now includes four Titan height-field snapshots, six Swarmfall campaign biomes, four archived Skyway foundation versions and two RPG layout visualizations. RPG maps adapt preserved layout/color data into a browser inspector; they are not gameplay screenshots. `library/snapshots/2026-10-20/terrain-archive/` preserves the seven source files used for these new views.
 
-Public showcase: https://asset-explorer-tboy450.tboy450.chatgpt.site . Only the asset IDs in `provenance/public-showcase-allowlist.json` are published. New local imports are not published automatically; the six mobile GIFs remain local.
+Public showcase: https://asset-explorer-tboy450.tboy450.chatgpt.site . Only the asset IDs in `provenance/public-showcase-allowlist.json` are published. New local imports are not published automatically; the six mobile GIFs were explicitly approved for public inclusion on 2026-10-20.
 
 ## Independence and backup
 

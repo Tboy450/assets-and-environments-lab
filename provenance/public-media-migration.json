@@ -1,0 +1,1114 @@
+{
+  "files": [
+    {
+      "path": "showcase/assets/exterior/saturn-cassini.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/exterior/saturn-cassini.jpg",
+      "sha256": "70e5e9d75bf96929ada6b9f82c950b8282c13b55eceb749cc2f859bad2954f9d",
+      "bytes": 290462
+    },
+    {
+      "path": "showcase/assets/exterior/titan-dunes.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/exterior/titan-dunes.jpg",
+      "sha256": "b10f00887e29befc91608c2ffc37e49074025fedd8815e7f9a76d99d2b43a68b",
+      "bytes": 226285
+    },
+    {
+      "path": "showcase/assets/heat-exchanger-reference.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/heat-exchanger-reference.jpg",
+      "sha256": "8b0c1ae94ca93b1bee50c7f341ab633df397a065a08ff734b9df54793183022e",
+      "bytes": 110097
+    },
+    {
+      "path": "showcase/assets/tubetech-reference.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/tubetech-reference.jpg",
+      "sha256": "dfcf23f209a75b06e82d8dfa34e34813964fce963999b37740a1b298d1478afb",
+      "bytes": 142061
+    },
+    {
+      "path": "showcase/assets/vehicle-references/cad-rotation.mp4",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/vehicle-references/cad-rotation.mp4",
+      "sha256": "9b37fd99b73a8a3ac633fffbdf0a99eda71688ec82965073ffe8b2f757f0536e",
+      "bytes": 4124170
+    },
+    {
+      "path": "showcase/assets/vehicle-references/payload-cutaway.webp",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/vehicle-references/payload-cutaway.webp",
+      "sha256": "4718efa419102e1bcf98852e411d83b9c5024047a1b360b54164fcf96722b00a",
+      "bytes": 152294
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/Building_Large_2.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/Building_Large_2.bin",
+      "sha256": "e25636464da7b96a346f89314e498099ce33d3b0e9b1f8d9cba3eee94b63fac3",
+      "bytes": 3345228
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/Building_Medium_2_001.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/Building_Medium_2_001.bin",
+      "sha256": "8a8bd4462ff5f784e0ea7fbe753b009713f4017192c9d82b467f445eae88a35d",
+      "bytes": 2443288
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/Building_Small_1.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/Building_Small_1.bin",
+      "sha256": "a5fb691fe7ab0d93d5d47eef51af576f2d65bd78103c92c9e714215b26d679a2",
+      "bytes": 1556100
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Concrete_Asphalt_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_Asphalt_BaseColor.png",
+      "sha256": "629ec67e100ed7902d497b159c4dae360495635f9826ef8df3ddb6c47452f0ed",
+      "bytes": 117905
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Concrete_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_BaseColor.png",
+      "sha256": "ba958fb34c17752ab2b5e7b8ed53b8e54eba0af6bf4426dd46b032c274d14a9b",
+      "bytes": 158447
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Concrete_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_Normal.png",
+      "sha256": "46891db31d8658476053c24f2d90813f5773ca57f5ada33b187b5a7ec4037347",
+      "bytes": 350288
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Concrete_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_ORM.png",
+      "sha256": "4f230bf96d8ddd2c31d42c9be7ea8401251551e723659c3cf2aafb12b6a2f48b",
+      "bytes": 99213
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Dirt_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Dirt_BaseColor.png",
+      "sha256": "0a7328ad1056e429f077d56550d729197be2ac125d98e5a99b8f1372c37dcd79",
+      "bytes": 170393
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Dirt_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Dirt_Normal.png",
+      "sha256": "00a3696a75d73d9d9e9daf2263ccd5430b988970793dcb50698bace4cd9b62b9",
+      "bytes": 642188
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Dirt_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Dirt_ORM.png",
+      "sha256": "0d8645cb7ac22ca24c5e63e53381f611f09c66a35eab71a7e2a0da2da360940a",
+      "bytes": 113729
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_MarbleFloor_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MarbleFloor_BaseColor.png",
+      "sha256": "08ad44958b26339427978fe968261edc08bd641f88eed88ba52457cfa3a14d8c",
+      "bytes": 293105
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_MarbleFloor_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MarbleFloor_Normal.png",
+      "sha256": "3667605d3fdeb77e6422743bd88c02ec677b3b288f22d56f6f5f7e36f87fb395",
+      "bytes": 172399
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_MarbleFloor_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MarbleFloor_ORM.png",
+      "sha256": "fdd2fc601f1046ca919d49d1317da54dca539010a5be4c8bd86dfa90a674f6e1",
+      "bytes": 171310
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_MetalConcrete_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MetalConcrete_BaseColor.png",
+      "sha256": "459e2ba2db59df53585fb2a4979072926b97d98fb79db3d6ea4de86e5cb98fb1",
+      "bytes": 154654
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_MetalConcrete_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MetalConcrete_Normal.png",
+      "sha256": "0edebaad00f26f7d3d0917044d0153f49dad89da623c1cb7c26badf93dd6c812",
+      "bytes": 359513
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_MetalConcrete_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MetalConcrete_ORM.png",
+      "sha256": "149d159fd80a1902e3d1fa8fde2fc7a250cbe0867ce323d8b753dcd998dee52f",
+      "bytes": 159206
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Ornaments_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Ornaments_BaseColor.png",
+      "sha256": "08de0dd4330e5f8ee7fd3ee25dcbd1d5f350f8630a921dfe51605d9b79ad4fce",
+      "bytes": 310222
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Ornaments_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Ornaments_Normal.png",
+      "sha256": "34467d1e10fdb5b02dee579ffccacd13a2da2d95cf55558bb1555698cfd37d78",
+      "bytes": 512292
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Ornaments_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Ornaments_ORM.png",
+      "sha256": "a79d2f004927ebd9be41c91367e4133e10ccf3c295b33d47bbe09adad12149b6",
+      "bytes": 313106
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_RedBrick_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_RedBrick_BaseColor.png",
+      "sha256": "6dcf03fa87c8d10267203a0f10c91244b179ad6bf716c25c50671b893df5726b",
+      "bytes": 227841
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_RedBrick_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_RedBrick_Normal.png",
+      "sha256": "2861442e76a26da76367a6d8e9b3c5b0a7a54989d4aea1d6dc0f6c9d293dc7b3",
+      "bytes": 533053
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_RedBrick_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_RedBrick_ORM.png",
+      "sha256": "d06aeeb2dc621e508c9acd862c172448f53234849ac91c5cac254c3f3d380637",
+      "bytes": 198444
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Trim_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Trim_BaseColor.png",
+      "sha256": "99bbcd024d0646eeaa45224145ebd8bed7afe0a3b680411a79e4e79b809aca7a",
+      "bytes": 319545
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Trim_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Trim_Normal.png",
+      "sha256": "e08729dcf9815eea325365bfe4ea2f06ae2f087ca48715884be98da083267a82",
+      "bytes": 268573
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_Trim_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Trim_ORM.png",
+      "sha256": "ac1239402c67b1812fbe87661bb3760c5af1bfa8f69d16d85ab9de9272058570",
+      "bytes": 171310
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_dark_interior.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_dark_interior.png",
+      "sha256": "3b89cca01042007aeaddb6d59949cff17c22eb5ecc36be8798f38e7865bc981b",
+      "bytes": 332098
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_lit_interior_1.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_lit_interior_1.png",
+      "sha256": "ca3ee783f7f37a0fd5a9e83c9bdce2d9d42cf4d0f5648f6118f201ff6ec1a61f",
+      "bytes": 400813
+    },
+    {
+      "path": "showcase/invasion/environments/assets/downtown/T_lit_interior_2.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_lit_interior_2.png",
+      "sha256": "840391beb35da76c866acb50a4a8f287d2922e8cf4715e265b35b3feaa3cbc60",
+      "bytes": 321649
+    },
+    {
+      "path": "showcase/invasion/environments/assets/fantasy/fountain-round-detail.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/fantasy/fountain-round-detail.glb",
+      "sha256": "05cdd740e3175c2d3208d4cb6630a279a9b4cbc48393b28c92e3e40cca2a5d6b",
+      "bytes": 136888
+    },
+    {
+      "path": "showcase/invasion/environments/assets/source-scenes/cyberpunk.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/cyberpunk.glb",
+      "sha256": "054a72489446785421cd7cfc1d3aa904d6d24b6d1aee2e69f106d5318bbd622e",
+      "bytes": 21311292
+    },
+    {
+      "path": "showcase/invasion/environments/assets/source-scenes/drone.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/drone.glb",
+      "sha256": "bddd3e80fd881e06042a9a69b47c0619fb3999a3b1d31275cb8fd2e9b54dec18",
+      "bytes": 15798400
+    },
+    {
+      "path": "showcase/invasion/environments/assets/source-scenes/skyway-foundation.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/skyway-foundation.glb",
+      "sha256": "c9595758f5bde44f993d9bd45127d0207a9129bfad52e3b90f6d1da6c64921b4",
+      "bytes": 4576060
+    },
+    {
+      "path": "showcase/invasion/environments/assets/source-scenes/skyway-houdini-coast.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/skyway-houdini-coast.glb",
+      "sha256": "13cf54359b7f366d12fcaadd86181ade71cc21e47481c115fb18254ff13e6e8f",
+      "bytes": 7646212
+    },
+    {
+      "path": "showcase/projects/rocket-run/assets/desktop/rocket-run.ico",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/desktop/rocket-run.ico",
+      "sha256": "116c6e238a38e1c0591b7b5f289f7a14b0815c6b213d30532b55120d783ccb8f",
+      "bytes": 188655
+    },
+    {
+      "path": "showcase/projects/rocket-run/assets/desktop/rocket-run.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/desktop/rocket-run.png",
+      "sha256": "bd98c2fc175cc164c528fd561fc837d6299cd02d7ae39b94c083cd0e98599b87",
+      "bytes": 1128331
+    },
+    {
+      "path": "showcase/projects/rocket-run/assets/fonts/barlow-condensed-800.ttf",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/fonts/barlow-condensed-800.ttf",
+      "sha256": "73bc9e17231e9073780d3c81574c7253cecd5645c93544df1a935054b39a364f",
+      "bytes": 87556
+    },
+    {
+      "path": "showcase/projects/rocket-run/assets/rocket-duo.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/rocket-duo.png",
+      "sha256": "9c1ded9c55067b12c297e0d89278f52764ed5140f6eaa8a4ac8dcbaa8896972d",
+      "bytes": 1450876
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/complex-scenes/city-1.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/complex-scenes/city-1.jpg",
+      "sha256": "c20dce54398a9b0968a68d8a803418ed0bddaa54acc99b7abc4300dd2b2e7977",
+      "bytes": 318208
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/complex-scenes/cyberpunk-city.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/complex-scenes/cyberpunk-city.jpg",
+      "sha256": "7a9db77b9fef088528294a5ebed4e2c42b2127f86b41d7bceb4d8200e58e5e98",
+      "bytes": 232477
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/complex-scenes/drone-city.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/complex-scenes/drone-city.jpg",
+      "sha256": "ac2df2dc8569af3f8d590a0203e1b4230d519e67313686540c5184c4d71ae05a",
+      "bytes": 2060109
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/complex-scenes/elven-realm.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/complex-scenes/elven-realm.png",
+      "sha256": "1eb267c95d57143931a5182f6505136b462a454ba180eda0626e661f12f92d66",
+      "bytes": 4030552
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/alien-heavy-district.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/alien-heavy-district.png",
+      "sha256": "787ca1d3f7b22273c53e861ce3a753604e740ee81e31adc9484ba823977cda10",
+      "bytes": 109727
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/alien-ruins.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/alien-ruins.png",
+      "sha256": "b4cad7e1cd15b7f9f0d6f80b9229c4281a9a0ca647ebb14f9bb19b33d6e20ac8",
+      "bytes": 77539
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/citadel-heavy.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/citadel-heavy.png",
+      "sha256": "07030539595893735d8b879073969155197929ba3002651444a8a9ebfd7511f6",
+      "bytes": 90205
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/metropolis-heavy.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/metropolis-heavy.png",
+      "sha256": "9c4f4fdcb759e31cb0e3bca42e364ac3546a9ce72a727f79bffd69226a9c15cd",
+      "bytes": 148358
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/phototextured-heavy.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/phototextured-heavy.png",
+      "sha256": "05f19fdd06d4f9448b7be3fd764e2defb2c39d4cc7a783c5bab9bc980944ff51",
+      "bytes": 95148
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/public-lab.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/public-lab.png",
+      "sha256": "9e52ac5873c980fe6f09f0d8c785b0de920781942fd7866453fb1a203c726ad4",
+      "bytes": 81337
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/destruction-stages/skyway-heavy.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/destruction-stages/skyway-heavy.png",
+      "sha256": "3c1dea2433626fbca0ba0ad93c8b3e6252d345e7185e84447a2360c8a79ea09e",
+      "bytes": 73078
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/environment-tests/skyway-preferred-baseline.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/environment-tests/skyway-preferred-baseline.png",
+      "sha256": "f513cb654d39442ffed6a9d66cd674536d4e84d803ccba742dfeec20dd924c5f",
+      "bytes": 72215
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/foundation-authoring/blender-foundation-final.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/foundation-authoring/blender-foundation-final.png",
+      "sha256": "81e5beb8f75b13e27b641619d716228694e1e781bbd1e867d18313347b4dee4b",
+      "bytes": 78285
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/foundation-authoring/blender-foundation-rear.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/foundation-authoring/blender-foundation-rear.png",
+      "sha256": "e27366e8d060c91a416a0d860ebeb9759ce5715fb9499706100c5a416843dd90",
+      "bytes": 66884
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/foundation-authoring/blender-foundation-vista.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/foundation-authoring/blender-foundation-vista.png",
+      "sha256": "0d40fcb6f953c3dd01699331fc685414a8589140fe89fb7dbf9966d51585e51a",
+      "bytes": 79069
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/foundation-authoring/drafts/raycast-v1/skyway-foundation.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/foundation-authoring/drafts/raycast-v1/skyway-foundation.glb",
+      "sha256": "9baf12374e83e2898c708def4f111b661954e6e7661e375c2b95e56b9ef65ae1",
+      "bytes": 19590528
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/foundation-authoring/foundation-view.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/foundation-authoring/foundation-view.png",
+      "sha256": "1c605f0fbfae09ef1c943fdd1d7e49191858c76e65b0eab4569a7fe8b0e7743d",
+      "bytes": 83941
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/reference-comparison.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/reference-comparison.jpg",
+      "sha256": "3daf40a5dad6b24451708d84e908832585c925cfb36209dbc4fb730e3ee47e71",
+      "bytes": 478078
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/references/crackdown-skyline.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/references/crackdown-skyline.png",
+      "sha256": "20b8e4ec47d7d7424c3506e61bd9829360160bb622c5af657ad5634a8f7defbc",
+      "bytes": 612796
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/references/kakarot-west-city.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/references/kakarot-west-city.jpg",
+      "sha256": "62c0564f453150393b2b495081d8297c870c00a2421566cad1b454964b5cf54c",
+      "bytes": 238641
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/references/kakarot-world-map.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/references/kakarot-world-map.jpg",
+      "sha256": "2859916f5c9deb5d88fc4a71e184b3efd34897b7f15bc6df43a67e61ec1f38f7",
+      "bytes": 549575
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/references/minecraft-greenfield.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/references/minecraft-greenfield.jpg",
+      "sha256": "5d9e9a214df73f754858aac7f655bcec3a4afd1730664e16db17566b5c7295eb",
+      "bytes": 456743
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/references/skyrim-solitude.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/references/skyrim-solitude.png",
+      "sha256": "3708440b8ff1575453f5a6aa6a494844435b8b75404746cbd7db544fadb3a19f",
+      "bytes": 616520
+    },
+    {
+      "path": "showcase/public-assets/dragonfly-blender/references/spiderman-manhattan.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/dragonfly-blender/references/spiderman-manhattan.jpg",
+      "sha256": "df4848ff40c4004f7072f11d48e826cdce1f714a78cc9f08f7eb6621df3900c4",
+      "bytes": 223808
+    },
+    {
+      "path": "showcase/public-assets/houdini-coast/drafts/coast-first-export-buffer-0.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/houdini-coast/drafts/coast-first-export-buffer-0.bin",
+      "sha256": "879915a40bfb08ba0aeaa4c6c4c4c512be00423ec3af968f7cffa2a92ff05134",
+      "bytes": 9720000
+    },
+    {
+      "path": "showcase/public-assets/houdini-coast/drafts/coast-first-export-buffer-1.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/houdini-coast/drafts/coast-first-export-buffer-1.bin",
+      "sha256": "7ae0f16ee2567355581fca6c74d377f359b57407650125d9cbbb64dc8214ee83",
+      "bytes": 9720000
+    },
+    {
+      "path": "showcase/public-assets/houdini-coast/drafts/coast-first-export-buffer-2.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/houdini-coast/drafts/coast-first-export-buffer-2.bin",
+      "sha256": "d20921b99ff3070818e8cf1eb57080fa2be58bf4b01586394e53ee03d13d3a77",
+      "bytes": 19396824
+    },
+    {
+      "path": "showcase/public-assets/houdini-coast/drafts/pre-skyway-clearance/coast.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/houdini-coast/drafts/pre-skyway-clearance/coast.glb",
+      "sha256": "13cf54359b7f366d12fcaadd86181ade71cc21e47481c115fb18254ff13e6e8f",
+      "bytes": 7646212
+    },
+    {
+      "path": "showcase/public-assets/houdini-coast/houdini-coast-final.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/houdini-coast/houdini-coast-final.png",
+      "sha256": "3d6a58e836ec6ef5cfa0613ed164a2f9bab58926abb2910e904b191c7c04a035",
+      "bytes": 73480
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Models/GLB format/cart-high.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Models/GLB%20format/cart-high.glb",
+      "sha256": "4b0bce37e8645f3719a9032bf4d49048b7779ac891758ae6e2693238911c5eec",
+      "bytes": 88560
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Models/GLB format/fountain-round-detail.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Models/GLB%20format/fountain-round-detail.glb",
+      "sha256": "05cdd740e3175c2d3208d4cb6630a279a9b4cbc48393b28c92e3e40cca2a5d6b",
+      "bytes": 136888
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Models/GLB format/fountain-round.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Models/GLB%20format/fountain-round.glb",
+      "sha256": "8d19741e2cca6cbdce114b950b4aa12af625979bbc17b2910ef2366834af5565",
+      "bytes": 84848
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Models/GLB format/windmill.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Models/GLB%20format/windmill.glb",
+      "sha256": "72562df164f5fd36670521462da8f4161cf2c4c1c889799443f0fb44532ad5db",
+      "bytes": 71160
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Preview (Variation A).png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Preview%20(Variation%20A).png",
+      "sha256": "dcd30f2791cb770e1240624f8c0deeafe526a8dede62d8c01c6a0dbc603f6f8f",
+      "bytes": 532359
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Preview.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Preview.png",
+      "sha256": "2fc8d1701de3037de47b65bf8fb1e6bd6504331fae66d80359d3aafa6d397d5d",
+      "bytes": 151438
+    },
+    {
+      "path": "showcase/public-assets/kenney-extracted/Sample.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/kenney-extracted/Sample.png",
+      "sha256": "ff91a6ef330b802fb352228795fc55f14ad30938e270a9279c3c80a4d7cdd489",
+      "bytes": 144984
+    },
+    {
+      "path": "showcase/public-assets/rocket-art/desktop/rocket-run.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rocket-art/desktop/rocket-run.png",
+      "sha256": "bd98c2fc175cc164c528fd561fc837d6299cd02d7ae39b94c083cd0e98599b87",
+      "bytes": 1128331
+    },
+    {
+      "path": "showcase/public-assets/rocket-art/rocket-duo.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rocket-art/rocket-duo.png",
+      "sha256": "9c1ded9c55067b12c297e0d89278f52764ed5140f6eaa8a4ac8dcbaa8896972d",
+      "bytes": 1450876
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-archive-assets/ui/title_dragon.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-archive-assets/ui/title_dragon.png",
+      "sha256": "c75441a3211c9904c1b5953a57c5ac65127ade1595be421338aece60db5dc5f5",
+      "bytes": 1720813
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-archive-assets/ui/title_dragon_generated_chroma.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-archive-assets/ui/title_dragon_generated_chroma.png",
+      "sha256": "8694d4c18899a88441b6cbe99913c6f623505ab92818995f5419c2ddf179e5eb",
+      "bytes": 2104377
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/characters/mage.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/characters/mage.png",
+      "sha256": "aa1d8e32a06ec6a11c30aaab6db5495529e55bce4cf8c976886492e10eb4a222",
+      "bytes": 805211
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/characters/rogue.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/characters/rogue.png",
+      "sha256": "8a7cd749e1ca7ff575fb885be457205f1a82509f37418e58cb143d275da51457",
+      "bytes": 706171
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/characters/warrior.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/characters/warrior.png",
+      "sha256": "f06df44617b62337057e54f32daae509b9c3f9ee006fecac38c5aec39ff908fc",
+      "bytes": 161087
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_00.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_00.png",
+      "sha256": "5c78b934333da9c77b0c3d64d9f9e92987d8dfc2e313f98eccd330db97f7496a",
+      "bytes": 86871
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_01.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_01.png",
+      "sha256": "acfb63b147ac9ab3dd5baec74b0944152de3c919b6f13e0d830015fd99badb8b",
+      "bytes": 92247
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_02.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_02.png",
+      "sha256": "1c93ab949173b11c21089f087c15b44648ccdb8dbdb09f03d4dd130ab8ca6855",
+      "bytes": 109512
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_03.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_03.png",
+      "sha256": "620cc97d5ca7097cccf0bfc8c4a23eb8c4b9ac3f8a683816f56887a982d20c41",
+      "bytes": 107021
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_04.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_04.png",
+      "sha256": "30bcad3365a94552e940fa126e45acf2e22c7c288d04ca7d8e69caa2ef4fd569",
+      "bytes": 114751
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_05.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_05.png",
+      "sha256": "1322fc0a90f9dd729223ba46285f54bae90e6206b032b5940c2885a4cc7b2551",
+      "bytes": 112409
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_06.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_06.png",
+      "sha256": "5f5c8eb9fe4399389f3d84457387426e1695c448541d564a2d420dc17c7e4d18",
+      "bytes": 111943
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_07.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_07.png",
+      "sha256": "9903aff074e0cff9e37e95f471655b88b5ab5a20334f4e1fcc0f5001ef05c075",
+      "bytes": 120295
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_08.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_08.png",
+      "sha256": "6720d72e4d4ec5188b9b693b02979441dbdc1a94f75541c6c352b90554f5de93",
+      "bytes": 120855
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_09.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_09.png",
+      "sha256": "6720d72e4d4ec5188b9b693b02979441dbdc1a94f75541c6c352b90554f5de93",
+      "bytes": 120855
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_10.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_10.png",
+      "sha256": "de246e1edcdfdb20a4200dd02a6eac6c79984a4f60875ba0b9e584acb141ea5a",
+      "bytes": 127092
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_11.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_11.png",
+      "sha256": "4a46f5dea8b298c8e51ae6b61f9f2cbdde25ac911c1d7f114d62a78ed621eba8",
+      "bytes": 127000
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_12.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_12.png",
+      "sha256": "824fc1dafa85c71cde4929a3bf6727ee03f692d105295d76a898d1d261d61e92",
+      "bytes": 127769
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_13.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_13.png",
+      "sha256": "bfe14c88b79f4a69836aea7c4096c64ee866890342e21ee9cb6dcbb407a6a8e3",
+      "bytes": 126053
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_14.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_14.png",
+      "sha256": "77aa645d830409e9b96c2e991c058ca5bf14a9965ecb552594dd2001a7064ae3",
+      "bytes": 140243
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_15.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_15.png",
+      "sha256": "afb6a7af48fae2ae70af60a9b8bb263d929fbbf8ed108837a007cd29c0ed61a4",
+      "bytes": 143073
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_16.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_16.png",
+      "sha256": "b49d67c3b7a2ae8aee84972c8fa1403ebf5e22eb20256be9fb5c799e6a9b9751",
+      "bytes": 143614
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_17.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_17.png",
+      "sha256": "0b9c4ef87b738f22bbf8fffc8d45898115dbbd6b2610eeb3b7b0b0da5889db70",
+      "bytes": 173887
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_18.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_18.png",
+      "sha256": "85caa4ebc574e9eafc4a15dab5f99754d18539739e81a621f8d92d1f88dd18bd",
+      "bytes": 182937
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_19.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_19.png",
+      "sha256": "a1aba1a537b0dfa8108ba6ab5c900509daf54d4c98a9baecaa237d15f5869b38",
+      "bytes": 197109
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_20.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_20.png",
+      "sha256": "b6e58e8cc2e42a7ad27055f92275de20a53e1b0a5daafe295d982078566aa14b",
+      "bytes": 198031
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_21.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_21.png",
+      "sha256": "8a738dcf06eb4c723fd5beddb38056d122bb8e50864d28f0e933cf2ab781e030",
+      "bytes": 207816
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_22.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_22.png",
+      "sha256": "139cc4c5d275d8a7e2e7aead85acca51f6a4f1bffdec9ce2beca00f6cd2d6996",
+      "bytes": 192731
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_23.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_23.png",
+      "sha256": "c64ba70cdc40128859a4453c577ef160e6daa89469254d16cd5e70dce2fd3669",
+      "bytes": 193240
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_24.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_24.png",
+      "sha256": "753bfa5e04ee1edc347701dc1cb019128684f44be20c059a9124ffbebedb9428",
+      "bytes": 200742
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_25.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_25.png",
+      "sha256": "8b007d9cf1d340e0957e6742454604a48ea01010dac0e0b9fcb55df6d70fcea9",
+      "bytes": 180380
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_26.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_26.png",
+      "sha256": "577aed6e8c7331ad7acd1a44386a79edb5c52359ebea314a097d6117fdb1ff6d",
+      "bytes": 178246
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_27.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_27.png",
+      "sha256": "416bf780ea57488f20abcb9ee1a9aed090dd636958a62bbda72f47a8a1a36a29",
+      "bytes": 178762
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_28.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_28.png",
+      "sha256": "2f850603251b9f50a5a2537734341acdbe371931b15894de660cf15ac2793af7",
+      "bytes": 147864
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_29.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_29.png",
+      "sha256": "4e7194ec4616de30b51541cc3b7e20f89eae7323ebcd64dd020268f929a16bab",
+      "bytes": 139669
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_30.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/fire_blast/frame_30.png",
+      "sha256": "a1216641db61e17358b6d75d68317c558c0b20a25e5e66e7872f0a3771b72efb",
+      "bytes": 151344
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/effects/mage_magic_fireball/mage_magic_fireball_contact_sheet.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/effects/mage_magic_fireball/mage_magic_fireball_contact_sheet.jpg",
+      "sha256": "f3ec8a6d3ea4acec65618d5bff53433c6f878d9d69f685a134eb640dc6c841fc",
+      "bytes": 75856
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/enemies/ghost_face.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/enemies/ghost_face.png",
+      "sha256": "2c83426e58fbd44a0f30bde111ad2ceac7b3408bda8f73624b69285422644fd7",
+      "bytes": 499666
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/future_assets/enemies/crystal_bat.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/future_assets/enemies/crystal_bat.png",
+      "sha256": "c689a2b49531becc66d6c0b63d193885a7c178e1415f39177773ffbdb0505b53",
+      "bytes": 383560
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/future_assets/enemies/ember_drake_hatchling.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/future_assets/enemies/ember_drake_hatchling.png",
+      "sha256": "6911e9206e688aa1c2820419b5c61f126d938ef0c09b374bb2b65b8224c89f23",
+      "bytes": 570295
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/future_assets/enemies/plague_knight.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/future_assets/enemies/plague_knight.png",
+      "sha256": "9e008587a6f589df0cf43b69c4abb9e49b5dc393ef9135b43114e5ca07e7e7b0",
+      "bytes": 605061
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/npcs/blacksmith.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/npcs/blacksmith.png",
+      "sha256": "d8c6a6e83ab1f89cae6420c4cccb0db01e8c09a23de20eb00c84f8d8d9370954",
+      "bytes": 1061564
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/npcs/innkeeper.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/npcs/innkeeper.png",
+      "sha256": "5adde1e968fe3f51efc0f270cb49885820f4385145bbb4d0922eb86191f19543",
+      "bytes": 1157339
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/npcs/lion_sage.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/npcs/lion_sage.png",
+      "sha256": "4b377af87237c81c38680e9409b9e23a70c0f565cc43c0cf5f68967fc8df45ac",
+      "bytes": 1810172
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/npcs/town_guard.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/npcs/town_guard.png",
+      "sha256": "84066f8d81059c25163293cadf5e489fcfa147ee8ce552c3bba55f405b526633",
+      "bytes": 1596411
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/ui/dragon_app_icon.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/ui/dragon_app_icon.png",
+      "sha256": "4da76d86ac169556f3d909061def7f47526b7f987b7a14ba8ab1b08cc4223133",
+      "bytes": 2650401
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/processed/ui/title_dragon.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/processed/ui/title_dragon.png",
+      "sha256": "c75441a3211c9904c1b5953a57c5ac65127ade1595be421338aece60db5dc5f5",
+      "bytes": 1720813
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/characters/mage_generated_chroma.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/characters/mage_generated_chroma.png",
+      "sha256": "e2395a475a7f3cba3dbb388d37e29a92ee516814b4b0691f4119db592c9490b7",
+      "bytes": 1522723
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/characters/rogue_generated_chroma.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/characters/rogue_generated_chroma.png",
+      "sha256": "c0d5a52275869c7a90c845f3e0c47271acef7dea99c349bd154e9743a9fd13d0",
+      "bytes": 1396091
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/characters/warrior_user_supplied.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/characters/warrior_user_supplied.png",
+      "sha256": "9658f50c22d9b8dbb55396e7e4bd7fb4dd1dfed767b72d138aa7c200e4264113",
+      "bytes": 178765
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/effects/fire_blast_impact.gif",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/effects/fire_blast_impact.gif",
+      "sha256": "f3748cd6325ea879c0c8e20488ab3e6334bb1951b2c06d097fca81f6b814e563",
+      "bytes": 10232377
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/effects/flame_tornado_attack.gif",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/effects/flame_tornado_attack.gif",
+      "sha256": "221d4182b2163984460a9384abd98e3eb4982b20f169fbf0f416a215be05edca",
+      "bytes": 4103664
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/effects/mage_magic_fireball.gif",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/effects/mage_magic_fireball.gif",
+      "sha256": "e657d6cf7243feda24ff4bc58c94ca4b653eac44d98a756290be873c02f58415",
+      "bytes": 3033035
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/enemies/plague_bat_drake_sheet.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/enemies/plague_bat_drake_sheet.png",
+      "sha256": "18964a257af324282e3422cdab69a4da70445223d920925d91ee553bdf301520",
+      "bytes": 2002331
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/npcs/blacksmith_innkeeper_sheet.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/npcs/blacksmith_innkeeper_sheet.png",
+      "sha256": "7a53fc66960b6edd715ce8f227a1721849dc29ced502a8a5c9fab73242aa653f",
+      "bytes": 2223188
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/npcs/lion_sage_generated_chroma.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/npcs/lion_sage_generated_chroma.png",
+      "sha256": "3f03d1f3fdcc81af66295f8167f876a45b154d5045b4b78ea9cace401ae0e4e2",
+      "bytes": 2146600
+    },
+    {
+      "path": "showcase/public-assets/rpg-current-assets/source/npcs/town_guard_generated_chroma.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-current-assets/source/npcs/town_guard_generated_chroma.png",
+      "sha256": "9b6fe7ddd44a1c7d61f9a5cbc25e4c3175c5fa8ef792b774d181af48431da779",
+      "bytes": 2119614
+    },
+    {
+      "path": "showcase/public-assets/rpg-original-assets/processed/ui/dragon_app_icon.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/public-assets/rpg-original-assets/processed/ui/dragon_app_icon.png",
+      "sha256": "4da76d86ac169556f3d909061def7f47526b7f987b7a14ba8ab1b08cc4223133",
+      "bytes": 2650401
+    },
+    {
+      "path": "showcase/thumbnails/terrain-swarmfall-blender.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/thumbnails/terrain-swarmfall-blender.png",
+      "sha256": "f6d77c780e360885aeebdbb5f1b01c10e38f6f141ca98b840f566e83fca9ebe2",
+      "bytes": 82844
+    },
+    {
+      "path": "showcase/thumbnails/terrain-swarmfall-contour-v2.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/thumbnails/terrain-swarmfall-contour-v2.png",
+      "sha256": "61a2cad0f7f12eaee2c804f1054ebdc99007c71cc0ece858c8589905bc18ccf1",
+      "bytes": 83618
+    },
+    {
+      "path": "showcase/thumbnails/terrain-swarmfall-platform-v1.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/thumbnails/terrain-swarmfall-platform-v1.png",
+      "sha256": "fff127252e43f63163511e99bf7639b2b99528b15f94aff3f05fbcf95262f169",
+      "bytes": 74468
+    },
+    {
+      "path": "site/assets/exterior/saturn-cassini.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/exterior/saturn-cassini.jpg",
+      "sha256": "70e5e9d75bf96929ada6b9f82c950b8282c13b55eceb749cc2f859bad2954f9d",
+      "bytes": 290462
+    },
+    {
+      "path": "site/assets/exterior/titan-dunes.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/exterior/titan-dunes.jpg",
+      "sha256": "b10f00887e29befc91608c2ffc37e49074025fedd8815e7f9a76d99d2b43a68b",
+      "bytes": 226285
+    },
+    {
+      "path": "site/assets/heat-exchanger-reference.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/heat-exchanger-reference.jpg",
+      "sha256": "8b0c1ae94ca93b1bee50c7f341ab633df397a065a08ff734b9df54793183022e",
+      "bytes": 110097
+    },
+    {
+      "path": "site/assets/tubetech-reference.jpg",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/tubetech-reference.jpg",
+      "sha256": "dfcf23f209a75b06e82d8dfa34e34813964fce963999b37740a1b298d1478afb",
+      "bytes": 142061
+    },
+    {
+      "path": "site/assets/vehicle-references/cad-rotation.mp4",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/vehicle-references/cad-rotation.mp4",
+      "sha256": "9b37fd99b73a8a3ac633fffbdf0a99eda71688ec82965073ffe8b2f757f0536e",
+      "bytes": 4124170
+    },
+    {
+      "path": "site/assets/vehicle-references/payload-cutaway.webp",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/assets/vehicle-references/payload-cutaway.webp",
+      "sha256": "4718efa419102e1bcf98852e411d83b9c5024047a1b360b54164fcf96722b00a",
+      "bytes": 152294
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/Building_Large_2.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/Building_Large_2.bin",
+      "sha256": "e25636464da7b96a346f89314e498099ce33d3b0e9b1f8d9cba3eee94b63fac3",
+      "bytes": 3345228
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/Building_Medium_2_001.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/Building_Medium_2_001.bin",
+      "sha256": "8a8bd4462ff5f784e0ea7fbe753b009713f4017192c9d82b467f445eae88a35d",
+      "bytes": 2443288
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/Building_Small_1.bin",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/Building_Small_1.bin",
+      "sha256": "a5fb691fe7ab0d93d5d47eef51af576f2d65bd78103c92c9e714215b26d679a2",
+      "bytes": 1556100
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Concrete_Asphalt_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_Asphalt_BaseColor.png",
+      "sha256": "629ec67e100ed7902d497b159c4dae360495635f9826ef8df3ddb6c47452f0ed",
+      "bytes": 117905
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Concrete_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_BaseColor.png",
+      "sha256": "ba958fb34c17752ab2b5e7b8ed53b8e54eba0af6bf4426dd46b032c274d14a9b",
+      "bytes": 158447
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Concrete_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_Normal.png",
+      "sha256": "46891db31d8658476053c24f2d90813f5773ca57f5ada33b187b5a7ec4037347",
+      "bytes": 350288
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Concrete_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Concrete_ORM.png",
+      "sha256": "4f230bf96d8ddd2c31d42c9be7ea8401251551e723659c3cf2aafb12b6a2f48b",
+      "bytes": 99213
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Dirt_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Dirt_BaseColor.png",
+      "sha256": "0a7328ad1056e429f077d56550d729197be2ac125d98e5a99b8f1372c37dcd79",
+      "bytes": 170393
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Dirt_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Dirt_Normal.png",
+      "sha256": "00a3696a75d73d9d9e9daf2263ccd5430b988970793dcb50698bace4cd9b62b9",
+      "bytes": 642188
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Dirt_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Dirt_ORM.png",
+      "sha256": "0d8645cb7ac22ca24c5e63e53381f611f09c66a35eab71a7e2a0da2da360940a",
+      "bytes": 113729
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_MarbleFloor_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MarbleFloor_BaseColor.png",
+      "sha256": "08ad44958b26339427978fe968261edc08bd641f88eed88ba52457cfa3a14d8c",
+      "bytes": 293105
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_MarbleFloor_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MarbleFloor_Normal.png",
+      "sha256": "3667605d3fdeb77e6422743bd88c02ec677b3b288f22d56f6f5f7e36f87fb395",
+      "bytes": 172399
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_MarbleFloor_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MarbleFloor_ORM.png",
+      "sha256": "fdd2fc601f1046ca919d49d1317da54dca539010a5be4c8bd86dfa90a674f6e1",
+      "bytes": 171310
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_MetalConcrete_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MetalConcrete_BaseColor.png",
+      "sha256": "459e2ba2db59df53585fb2a4979072926b97d98fb79db3d6ea4de86e5cb98fb1",
+      "bytes": 154654
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_MetalConcrete_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MetalConcrete_Normal.png",
+      "sha256": "0edebaad00f26f7d3d0917044d0153f49dad89da623c1cb7c26badf93dd6c812",
+      "bytes": 359513
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_MetalConcrete_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_MetalConcrete_ORM.png",
+      "sha256": "149d159fd80a1902e3d1fa8fde2fc7a250cbe0867ce323d8b753dcd998dee52f",
+      "bytes": 159206
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Ornaments_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Ornaments_BaseColor.png",
+      "sha256": "08de0dd4330e5f8ee7fd3ee25dcbd1d5f350f8630a921dfe51605d9b79ad4fce",
+      "bytes": 310222
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Ornaments_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Ornaments_Normal.png",
+      "sha256": "34467d1e10fdb5b02dee579ffccacd13a2da2d95cf55558bb1555698cfd37d78",
+      "bytes": 512292
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Ornaments_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Ornaments_ORM.png",
+      "sha256": "a79d2f004927ebd9be41c91367e4133e10ccf3c295b33d47bbe09adad12149b6",
+      "bytes": 313106
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_RedBrick_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_RedBrick_BaseColor.png",
+      "sha256": "6dcf03fa87c8d10267203a0f10c91244b179ad6bf716c25c50671b893df5726b",
+      "bytes": 227841
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_RedBrick_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_RedBrick_Normal.png",
+      "sha256": "2861442e76a26da76367a6d8e9b3c5b0a7a54989d4aea1d6dc0f6c9d293dc7b3",
+      "bytes": 533053
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_RedBrick_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_RedBrick_ORM.png",
+      "sha256": "d06aeeb2dc621e508c9acd862c172448f53234849ac91c5cac254c3f3d380637",
+      "bytes": 198444
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Trim_BaseColor.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Trim_BaseColor.png",
+      "sha256": "99bbcd024d0646eeaa45224145ebd8bed7afe0a3b680411a79e4e79b809aca7a",
+      "bytes": 319545
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Trim_Normal.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Trim_Normal.png",
+      "sha256": "e08729dcf9815eea325365bfe4ea2f06ae2f087ca48715884be98da083267a82",
+      "bytes": 268573
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_Trim_ORM.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_Trim_ORM.png",
+      "sha256": "ac1239402c67b1812fbe87661bb3760c5af1bfa8f69d16d85ab9de9272058570",
+      "bytes": 171310
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_dark_interior.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_dark_interior.png",
+      "sha256": "3b89cca01042007aeaddb6d59949cff17c22eb5ecc36be8798f38e7865bc981b",
+      "bytes": 332098
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_lit_interior_1.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_lit_interior_1.png",
+      "sha256": "ca3ee783f7f37a0fd5a9e83c9bdce2d9d42cf4d0f5648f6118f201ff6ec1a61f",
+      "bytes": 400813
+    },
+    {
+      "path": "site/invasion/environments/assets/downtown/T_lit_interior_2.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/downtown/T_lit_interior_2.png",
+      "sha256": "840391beb35da76c866acb50a4a8f287d2922e8cf4715e265b35b3feaa3cbc60",
+      "bytes": 321649
+    },
+    {
+      "path": "site/invasion/environments/assets/fantasy/fountain-round-detail.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/fantasy/fountain-round-detail.glb",
+      "sha256": "05cdd740e3175c2d3208d4cb6630a279a9b4cbc48393b28c92e3e40cca2a5d6b",
+      "bytes": 136888
+    },
+    {
+      "path": "site/invasion/environments/assets/source-scenes/cyberpunk.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/cyberpunk.glb",
+      "sha256": "054a72489446785421cd7cfc1d3aa904d6d24b6d1aee2e69f106d5318bbd622e",
+      "bytes": 21311292
+    },
+    {
+      "path": "site/invasion/environments/assets/source-scenes/drone.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/drone.glb",
+      "sha256": "bddd3e80fd881e06042a9a69b47c0619fb3999a3b1d31275cb8fd2e9b54dec18",
+      "bytes": 15798400
+    },
+    {
+      "path": "site/invasion/environments/assets/source-scenes/skyway-foundation.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/skyway-foundation.glb",
+      "sha256": "c9595758f5bde44f993d9bd45127d0207a9129bfad52e3b90f6d1da6c64921b4",
+      "bytes": 4576060
+    },
+    {
+      "path": "site/invasion/environments/assets/source-scenes/skyway-houdini-coast.glb",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/invasion/environments/assets/source-scenes/skyway-houdini-coast.glb",
+      "sha256": "13cf54359b7f366d12fcaadd86181ade71cc21e47481c115fb18254ff13e6e8f",
+      "bytes": 7646212
+    },
+    {
+      "path": "site/projects/rocket-run/assets/desktop/rocket-run.ico",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/desktop/rocket-run.ico",
+      "sha256": "116c6e238a38e1c0591b7b5f289f7a14b0815c6b213d30532b55120d783ccb8f",
+      "bytes": 188655
+    },
+    {
+      "path": "site/projects/rocket-run/assets/desktop/rocket-run.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/desktop/rocket-run.png",
+      "sha256": "bd98c2fc175cc164c528fd561fc837d6299cd02d7ae39b94c083cd0e98599b87",
+      "bytes": 1128331
+    },
+    {
+      "path": "site/projects/rocket-run/assets/fonts/barlow-condensed-800.ttf",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/fonts/barlow-condensed-800.ttf",
+      "sha256": "73bc9e17231e9073780d3c81574c7253cecd5645c93544df1a935054b39a364f",
+      "bytes": 87556
+    },
+    {
+      "path": "site/projects/rocket-run/assets/rocket-duo.png",
+      "url": "https://asset-explorer-tboy450.tboy450.chatgpt.site/projects/rocket-run/assets/rocket-duo.png",
+      "sha256": "9c1ded9c55067b12c297e0d89278f52764ed5140f6eaa8a4ac8dcbaa8896972d",
+      "bytes": 1450876
+    }
+  ]
+}

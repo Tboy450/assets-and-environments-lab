@@ -1,0 +1,14 @@
+* text=auto
+*.mjs text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.glb -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webp -text
