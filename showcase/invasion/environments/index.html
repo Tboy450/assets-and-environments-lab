@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09131b"><title>Project Asset &amp; Environment Lab · Local copy</title>
+  <meta name="description" content="Explore Swarmfall's alien and fantasy cities, progressive destruction studies, game drones and reusable architecture assets in an interactive 3D lab.">
+  <link rel="stylesheet" href="./lab.css?v=dev">
+  <script type="importmap">{"imports":{"three":"../../vendor/three/three.module.min.js","three/addons/":"../../vendor/three/addons/"}}</script>
+<script>globalThis.ASSET_PUBLIC=true;</script><style>#manage-open,#dropzone,.toolbar>button,.source-panel,#location{display:none!important}.local-badge{font-size:9px}</style></head>
+<body>
+  <canvas id="world" aria-label="Interactive 3D environment. Drag to orbit, scroll to zoom. Use Pilot view for free flight."></canvas>
+  <header class="topbar"><a class="brand" href="/">ASSET STUDIO<span>PROJECT PREVIEW · LOCAL COPY</span></a><span class="badge" data-build-stamp>Build local</span><button id="menu" aria-expanded="true" aria-controls="panel">Explore lab</button></header>
+  <aside id="panel">
+    <nav class="lab-modes" aria-label="Lab mode"><a href="?scene=alien" data-mode="environments">Environments</a><a href="?asset=drone-scout" data-mode="assets">Assets</a></nav>
+    <p class="eyebrow" id="lab-eyebrow">WORLDS IN DEVELOPMENT</p><h1 id="title">Building the world…</h1><p id="description" class="description"></p>
+    <section id="asset-browser" hidden aria-label="Asset inspector">
+      <label for="asset-choice" class="section-label">CHOOSE AN ASSET</label><select id="asset-choice"></select>
+      <nav id="scout-versions" class="lab-modes" aria-label="Scout model version" hidden><a href="?asset=drone-scout&amp;scout=original" data-scout-version="original">Original</a><a href="?asset=drone-scout&amp;scout=polished" data-scout-version="polished">Polish pass</a></nav>
+      <p id="asset-license" class="help"></p><a id="asset-source" target="_blank" rel="noopener">Creator &amp; source ↗</a>
+      <p class="help">Fit-to-view display scale. Orbit and zoom to inspect each model.</p>
+      <p id="asset-damage-note" class="help"></p>
+    </section>
+    <nav class="tests" aria-label="Environment tests">
+      <a href="?scene=alien" data-scene="alien"><span class="number">01</span><span><strong>Alien arcology</strong><small>Curved towers · aerial infrastructure</small></span><span>↗</span></a>
+      <a href="?scene=metropolis" data-scene="metropolis"><span class="number">02</span><span><strong>Metropolis</strong><small>Textured districts · urban scale</small></span><span>↗</span></a>
+      <a href="?scene=citadel" data-scene="citadel"><span class="number">03</span><span><strong>Tidal citadel</strong><small>Fantasy terraces · bridges & spires</small></span><span>↗</span></a>
+      <a href="?scene=cyberpunk" data-scene="cyberpunk"><span class="number">04</span><span><strong>Skyway megacity</strong><small>Cyberpunk City · coastal foundation</small></span><span>↗</span></a>
+      <a href="?scene=drone" data-scene="drone"><span class="number">05</span><span><strong>Phototextured city</strong><small>drone City · complete Blender scene</small></span><span>↗</span></a>
+    </nav>
+    <section id="damage-preview" aria-label="City destruction stages">
+      <div class="section-label">DESTRUCTION STUDY</div>
+      <div class="buttons damage-stages"><button data-damage="intact" aria-pressed="true">Intact</button><button data-damage="damaged" aria-pressed="false">Damaged</button><button data-damage="heavy" aria-pressed="false">Major destruction</button><button data-damage="ruins" aria-pressed="false">Ruins</button></div>
+      <p id="damage-note" class="help" role="status">Compare progressive broken architecture and settled debris.</p>
+      <div class="section-label">AFTERMATH EFFECTS</div>
+      <div class="buttons effect-controls"><button id="effect-smoke" aria-pressed="true">Smoke</button><button id="effect-fire" aria-pressed="true">Fire &amp; embers</button><button id="effect-pause" aria-pressed="false">Pause effects</button></div>
+      <p id="effect-note" class="help" role="status">Smoke and fire follow the damaged architecture.</p>
+    </section>
+    <div class="section-label">CHOOSE A PERSPECTIVE</div>
+    <div class="buttons presets"><button data-view="vista" class="active">Vista</button><button data-view="district">District</button><button data-view="street">Street</button><button data-view="foundation" hidden>Foundation</button><button data-view="rear" hidden>Rear coast</button><button data-view="bases" hidden>Building bases</button></div>
+    <div class="buttons"><button id="pilot" aria-pressed="false">Pilot view</button><button id="tour" aria-pressed="false">Flyover</button><button id="light" aria-pressed="false">Dusk</button></div>
+    <label class="quality">Render detail <select id="quality"><option value="high">High</option><option value="low">Light</option></select></label>
+    <p class="help" id="help">Drag to orbit · scroll to zoom · right-drag to pan.<br>Choose Pilot view to fly through the environment.</p>
+    <details><summary>About this test & credits</summary><p id="credits"></p><p id="variant" hidden></p><p>Visual studies with invented dimensions. Destruction, smoke and fire are visual previews; battle damage, spreading fire and collision are future integration work. Free flight has no collision. This lab does not change your game saves.</p><a href="./CREDITS.md" target="_blank">Sources & modifications ↗</a></details>
+  </aside>
+  <div id="loading" role="status"><span class="spinner"></span><span id="loading-text">Preparing environment…</span></div>
+  <footer><span id="status">Loading source assets</span><span id="metrics" aria-live="off"></span></footer>
+  <div class="touch-controls" aria-label="Pilot movement"><button data-move="KeyW" aria-label="Fly forward">↑</button><button data-move="KeyA" aria-label="Fly left">←</button><button data-move="KeyS" aria-label="Fly backward">↓</button><button data-move="KeyD" aria-label="Fly right">→</button><button data-move="KeyE" aria-label="Fly up">＋</button><button data-move="KeyQ" aria-label="Fly down">−</button></div>
+  <script type="module" src="./lab.mjs?v=dev"></script>
+<script type="module" src="/studio/embed.mjs"></script></body></html>
