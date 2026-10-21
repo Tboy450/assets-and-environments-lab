@@ -29,7 +29,6 @@
     "linked-951b16f4cce7d6a002ed",
     "linked-030afe7de09623edbf1e",
     "linked-21bab727eca1921edda1",
-    "asset-54b07714-f2e1-4492-a0b1-95d384bd2b9e",
     "device-20197aa012bec0906c3dfe53",
     "device-e249b57e18f00d6372870ef3",
     "device-39c5d07d38954462dfd6dae4",
@@ -997,7 +996,6 @@
     "device-b69a8581bf6509c4147bd8f0",
     "device-94cd4607f07af60c3f2d94de",
     "device-3e6e58a5727ae846a11766a2",
-    "asset-920477f9-fecc-48a9-b996-bfe9c02fdf73",
     "dragonfly-all",
     "dragonfly-fuselage",
     "dragonfly-attic",
@@ -1061,5 +1059,5 @@
     "asset-a49f5981-6395-4cba-8a22-e047ceb0b7f2",
     "asset-872c9ab1-5f15-4421-a825-03cb034d58cc"
   ],
-  "note": "Original showcase selection plus the 16 terrain/world-layout samples requested on 2026-10-20. New mobile GIF imports remain excluded. User explicitly approved the six mobile GIFs for public inclusion on 2026-10-20."
+  "note": "Original showcase selection plus the 16 terrain/world-layout samples requested on 2026-10-20. New mobile GIF imports remain excluded. User explicitly approved the six mobile GIFs for public inclusion on 2026-10-20. On 2026-10-21 the user removed the Import Demo test collection (a duplicate Kenney tree and its texture) from the public selection."
 }
