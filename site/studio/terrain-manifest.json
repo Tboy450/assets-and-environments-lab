@@ -1,0 +1,162 @@
+[
+  {
+    "id": "terrain-dragonfly-mountain-basin-map",
+    "projectId": "dragonfly",
+    "name": "Titan · Mountain basin",
+    "kind": "terrain",
+    "terrain": {
+      "family": "titan",
+      "version": "mountain-basin-map"
+    },
+    "notes": "Archived terrainHeight function sampled into a new inspection mesh. Original archived code is preserved; this preview is illustrative, not a mapped Titan surface."
+  },
+  {
+    "id": "terrain-dragonfly-copilot-dune-terrain",
+    "projectId": "dragonfly",
+    "name": "Titan · Earlier dune terrain",
+    "kind": "terrain",
+    "terrain": {
+      "family": "titan",
+      "version": "copilot-dune-terrain"
+    },
+    "notes": "Archived terrainHeight function sampled into a new inspection mesh. Original archived code is preserved; this preview is illustrative, not a mapped Titan surface."
+  },
+  {
+    "id": "terrain-dragonfly-sparse-mountains-and-parked-room",
+    "projectId": "dragonfly",
+    "name": "Titan · Sparse mountains",
+    "kind": "terrain",
+    "terrain": {
+      "family": "titan",
+      "version": "sparse-mountains-and-parked-room"
+    },
+    "notes": "Archived terrainHeight function sampled into a new inspection mesh. Original archived code is preserved; this preview is illustrative, not a mapped Titan surface."
+  },
+  {
+    "id": "terrain-dragonfly-current",
+    "projectId": "dragonfly",
+    "name": "Titan · Interdune corridor",
+    "kind": "terrain",
+    "terrain": {
+      "family": "titan",
+      "version": "current"
+    },
+    "notes": "Independent lab snapshot of the interdune terrain, sampled from its terrainHeight function."
+  },
+  {
+    "id": "terrain-swarmfall-desert",
+    "projectId": "swarmfall",
+    "name": "Campaign terrain · desert",
+    "kind": "terrain",
+    "terrain": {
+      "family": "planet",
+      "biome": "desert"
+    },
+    "notes": "Existing campaign height function, fixed seed 47. Inspection mesh has 4× vertical exaggeration to show the terrain forms. No gameplay simulation."
+  },
+  {
+    "id": "terrain-swarmfall-jungle",
+    "projectId": "swarmfall",
+    "name": "Campaign terrain · jungle",
+    "kind": "terrain",
+    "terrain": {
+      "family": "planet",
+      "biome": "jungle"
+    },
+    "notes": "Existing campaign height function, fixed seed 47. Inspection mesh has 4× vertical exaggeration to show the terrain forms. No gameplay simulation."
+  },
+  {
+    "id": "terrain-swarmfall-ice",
+    "projectId": "swarmfall",
+    "name": "Campaign terrain · ice",
+    "kind": "terrain",
+    "terrain": {
+      "family": "planet",
+      "biome": "ice"
+    },
+    "notes": "Existing campaign height function, fixed seed 47. Inspection mesh has 4× vertical exaggeration to show the terrain forms. No gameplay simulation."
+  },
+  {
+    "id": "terrain-swarmfall-volcanic",
+    "projectId": "swarmfall",
+    "name": "Campaign terrain · volcanic",
+    "kind": "terrain",
+    "terrain": {
+      "family": "planet",
+      "biome": "volcanic"
+    },
+    "notes": "Existing campaign height function, fixed seed 47. Inspection mesh has 4× vertical exaggeration to show the terrain forms. No gameplay simulation."
+  },
+  {
+    "id": "terrain-swarmfall-storm",
+    "projectId": "swarmfall",
+    "name": "Campaign terrain · storm",
+    "kind": "terrain",
+    "terrain": {
+      "family": "planet",
+      "biome": "storm"
+    },
+    "notes": "Existing campaign height function, fixed seed 47. Inspection mesh has 4× vertical exaggeration to show the terrain forms. No gameplay simulation."
+  },
+  {
+    "id": "terrain-swarmfall-city",
+    "projectId": "swarmfall",
+    "name": "Campaign terrain · city",
+    "kind": "terrain",
+    "terrain": {
+      "family": "planet",
+      "biome": "city"
+    },
+    "notes": "Existing campaign height function, fixed seed 47. Inspection mesh has 4× vertical exaggeration to show the terrain forms. No gameplay simulation."
+  },
+  {
+    "id": "terrain-swarmfall-flat",
+    "projectId": "swarmfall",
+    "name": "Skyway archive · Original flat ground",
+    "kind": "environment",
+    "previewUrl": "/invasion/environments/?scene=cyberpunk&foundation=flat",
+    "notes": "Preserved foundation variant rendered using the independent lab code and source assets."
+  },
+  {
+    "id": "terrain-swarmfall-platform-v1",
+    "projectId": "swarmfall",
+    "name": "Skyway archive · Raised platform · first pass",
+    "kind": "environment",
+    "previewUrl": "/invasion/environments/?scene=cyberpunk&foundation=platform-v1",
+    "notes": "Preserved foundation variant rendered using the independent lab code and source assets."
+  },
+  {
+    "id": "terrain-swarmfall-contour-v2",
+    "projectId": "swarmfall",
+    "name": "Skyway archive · Low coast · second pass",
+    "kind": "environment",
+    "previewUrl": "/invasion/environments/?scene=cyberpunk&foundation=contour-v2",
+    "notes": "Preserved foundation variant rendered using the independent lab code and source assets."
+  },
+  {
+    "id": "terrain-swarmfall-blender",
+    "projectId": "swarmfall",
+    "name": "Skyway archive · Blender structural foundation",
+    "kind": "environment",
+    "previewUrl": "/invasion/environments/?scene=cyberpunk&foundation=blender",
+    "notes": "Preserved foundation variant rendered using the independent lab code and source assets."
+  },
+  {
+    "id": "terrain-rpg-legacy",
+    "projectId": "dragons-lair",
+    "name": "RPG · Original beach overworld",
+    "kind": "environment",
+    "worldType": "map",
+    "previewUrl": "/studio/terrain-map.html?version=legacy",
+    "notes": "New interactive 2D layout visualization using the preserved Python world layout and background colors. Region decorations are a browser adaptation of the original drawing primitives, not an original gameplay screenshot."
+  },
+  {
+    "id": "terrain-rpg-current",
+    "projectId": "dragons-lair",
+    "name": "RPG · Plains overworld snapshot",
+    "kind": "environment",
+    "worldType": "map",
+    "previewUrl": "/studio/terrain-map.html?version=current",
+    "notes": "New interactive 2D layout visualization using the preserved Python world layout and background colors. Region decorations are a browser adaptation of the original drawing primitives, not an original gameplay screenshot."
+  }
+]
