@@ -4,7 +4,8 @@
 
 - Public repository: https://github.com/Tboy450/assets-and-environments-lab
 - GitHub Pages app: https://tboy450.github.io/assets-and-environments-lab/
-- Retained Site fallback: https://asset-explorer-tboy450.tboy450.chatgpt.site
+- Retired, owner-only legacy copy: https://asset-explorer-tboy450.tboy450.chatgpt.site
+- Latest status summary: [HANDOFF-STATUS.md](HANDOFF-STATUS.md)
 - Deployment checks: https://github.com/Tboy450/assets-and-environments-lab/actions/workflows/pages.yml
 - Read AGENTS.md. This file describes the app and its current state; conversation history and personal asset reports are not included.
 
@@ -21,16 +22,14 @@ npm start
 
 Open http://127.0.0.1:4194/. A fresh clone builds a writable local catalog from showcase/studio/public-data.json. It does not need the owner's device folders. Existing local catalogs are preserved.
 
-## Verified completed work
+## Verified current state — 2026-10-21
 
-- All 1,336 app/source and approved showcase files were checked against local commit f12d0367dc65459b0c9ceb7eed7003e749d44036: none missing or changed. The source/media publication commit is 4f455f2cb820dd1220bb30e24d32632c64d0006a.
-
-- The six mobile GIFs are approved in provenance/public-showcase-allowlist.json and present in both public snapshots.
-- Existing Site version 3 was deployed successfully on 2026-10-21, from source commit 43192e68be7123a4bf4bafe17df5ab5155481fb2.
-- The live catalog contains 1,060 entries, including all six GIF IDs. All six media URLs returned HTTP 200 with image/gif content type.
-- Public GIF copies match their original SHA-256 receipts. Imports and source/license notes remain intact.
-- scripts/import-mobile-effects.mjs was rebuilt as JavaScript after its previous contents were replaced by an unrelated Python fragment. This is a reconstruction, not recovered original code. The damaged copy is retained in the owner's ignored archive/ folder.
-- All 15 local tests pass, including byte preservation, duplicate prevention on rerun and rejection of an invalid sixth GIF before catalog mutation.
+- GitHub Pages is the primary public app. The public cleanup was published in commit e7872b32a115b0896e5c0029ceb84b6c2f72dacc; its Actions run passed.
+- Its catalog has 1,058 entries. Import Demo is absent, and public CREDITS.md has no device path. All six approved mobile GIF URLs return HTTP 200.
+- The old chatgpt.site copy is retired from public access: its custom access policy allows only the owner, with no other users or groups. Anonymous requests to its homepage and CREDITS.md return HTTP 401. Its content was preserved, not deleted.
+- Public GIF copies retain their original bytes and source/license notes.
+- The corrupted mobile-effects importer was reconstructed as JavaScript, with its damaged copy retained in the owner's ignored archive.
+- The 15-test suite and the fresh-checkout catalog check passed in GitHub Actions.
 
 ## Source map
 

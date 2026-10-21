@@ -1,9 +1,7 @@
 # Continue here
 
-Use [HANDOFF.md](HANDOFF.md) as the current app handoff, and read [AGENTS.md](AGENTS.md).
+Read [HANDOFF-STATUS.md](HANDOFF-STATUS.md), then [HANDOFF.md](HANDOFF.md) and [AGENTS.md](AGENTS.md).
 
-The previous blockers are resolved: the six GIFs are live on the retained Site, the public GitHub repository now contains the app/source and approved media, and the corrupted importer has been reconstructed and tested.
+GitHub Pages is the public app. The legacy chatgpt.site copy is owner-only, and anonymous homepage/credits requests are blocked. The six mobile GIFs work on GitHub Pages; Import Demo and the device path are absent there.
 
-GitHub Pages publishing and the fresh-checkout checks are defined in .github/workflows/pages.yml. See its Actions status through the link in HANDOFF.md.
-
-This replaces the earlier unfinished-deployment note. Personal reports and conversation history are not part of the public handoff.
+The status summary records the completed retirement and the remaining optional review follow-ups. Conversation history and personal asset reports are not included.
