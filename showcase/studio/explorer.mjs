@@ -1,13 +1,13 @@
 import {browseRows,category} from './browse-data.mjs';
 import {thumbnailQueue} from './thumbnails.mjs';
 import {api} from './api-client.mjs';
-import {inCollection} from './collections.mjs';
+import {collectionAssets} from './collections.mjs';
 const $=id=>document.getElementById(id),el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;return n;};
 const query=new URLSearchParams(location.search);let projectId=query.get('project')||'all-local',mode=query.get('tab')||'worlds',projects=[],assets=[],rows=[],selected=null,onlyFavorites=false,visibleLimit=100;
 let saved=new Set();try{saved=new Set(JSON.parse(localStorage.getItem('asset-explorer-favorites')||'[]'));}catch{}
 const post=(url,data={})=>api(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
 const status=text=>$('status').textContent=text;
-const projectAssets=()=>assets.filter(a=>inCollection(a,projectId));
+const projectAssets=()=>collectionAssets(assets,projectId);
 const projectName=id=>projects.find(p=>p.id===id)?.name||'Local collection';
 const labels={worlds:'Worlds',models:'Models',art:'Art & sound',sources:'Source files'};
 const symbol=a=>category(a)==='worlds'?'◈':category(a)==='models'?'⬡':a.kind==='audio'?'♫':a.kind==='video'?'▷':a.format==='zip'?'▤':'◇';

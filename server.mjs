@@ -9,7 +9,7 @@ import { scanSources } from './lib/sources.mjs';
 import { registerDragonfly } from './lib/dragonfly-catalog.mjs';
 import { pickerDirectory,nativeImport } from './lib/native-picker.mjs';
 import { assetCatalog } from './site/invasion/environments/asset-viewer.mjs';
-import {inCollection} from './site/studio/collections.mjs';
+import {collectionAssets} from './site/studio/collections.mjs';
 import {registerTerrainArchive} from './lib/terrain-catalog.mjs';
 import {bootstrapPortableCatalog} from './lib/portable-catalog.mjs';
 
@@ -74,7 +74,7 @@ export async function createStudioServer({directory=base,linkedCatalog=null,sour
         const projectId=decodeURIComponent(pathname.slice('/api/projects/'.length));return reply(res,200,store.project(projectId));
       }
       if(pathname==='/api/assets'&&req.method==='GET'){
-        const projectId=url.searchParams.get('project');return reply(res,200,store.state.assets.filter(a=>inCollection(a,projectId)).map(a=>store.publicAsset(a)));
+        const projectId=url.searchParams.get('project');return reply(res,200,collectionAssets(store.state.assets,projectId).map(a=>store.publicAsset(a)));
       }
       if(pathname.startsWith('/api/assets/')&&req.method==='GET')return reply(res,200,store.publicAsset(store.asset(decodeURIComponent(pathname.slice('/api/assets/'.length)))));
       if(pathname==='/api/batches'&&req.method==='POST'){

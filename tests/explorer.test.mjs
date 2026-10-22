@@ -6,7 +6,14 @@ import {fileURLToPath} from 'node:url';
 import {browseRows} from '../site/studio/browse-data.mjs';
 import {StudioStore} from '../lib/store.mjs';
 import {nativeImport,pickerDirectory} from '../lib/native-picker.mjs';
-import {inCollection} from '../site/studio/collections.mjs';
+import {inCollection,collectionAssets} from '../site/studio/collections.mjs';
+test('All collections lists Swarmfall copies of archived kit files once; their own collection keeps them',()=>{
+  const rows=[{id:'archive-tree',projectId:'shared',kind:'model',filename:'tree-high.glb'},{id:'swarm-tree',projectId:'swarmfall',kind:'bundled',filename:'tree-high.glb'},
+    {id:'swarm-drone',projectId:'swarmfall',kind:'bundled',filename:'scout.glb'},{id:'rpg-tree',projectId:'dragons-lair',kind:'image',filename:'tree-high.png'}];
+  assert.deepEqual(collectionAssets(rows,'all-local').map(a=>a.id),['archive-tree','swarm-drone','rpg-tree']);
+  assert.deepEqual(collectionAssets(rows,'swarmfall').map(a=>a.id),['swarm-tree','swarm-drone']);
+  assert.deepEqual(collectionAssets(rows,null).map(a=>a.id),rows.map(a=>a.id));
+});
 test('Blender includes archived compatible models without exposing unrelated media or duplicating catalog entries',()=>{
   const rows=[{id:'kit',projectId:'shared',kind:'model',format:'glb'},{id:'native',projectId:'shared',kind:'source',format:'blend'},{id:'texture',projectId:'shared',kind:'image',format:'png'},{id:'rpg',projectId:'dragons-lair',kind:'image',format:'png'},{id:'own',projectId:'blender',kind:'model'}];
   assert.deepEqual(rows.filter(a=>inCollection(a,'blender')).map(a=>a.id),['kit','native','own']);

@@ -1,5 +1,18 @@
 # Standalone studio change log
 
+## 2026-10-22 — Review follow-ups: safer saves, one entry per file, light GIF previews
+
+- **Signed:** Claude (Anthropic).
+- Catalog saves flush to disk before the atomic rename, so a crash leaves the old or new
+  catalog rather than a zero-filled file; imported files are flushed before they are renamed.
+- Unchanged catalogs are no longer rewritten, so restarts and no-op scans stop adding history
+  copies. Existing history is retained.
+- All collections lists each file once: Swarmfall's nine byte-identical copies of archived Kenney
+  models are hidden there (Models 228 -> 219); the Swarmfall collection still shows them.
+- New scripts/make-gif-thumbnails.py makes 320 px animated WebP previews for public GIFs. Lists
+  and Grid use them; the preview and download still use the original GIF. Nine GIFs: 43.1 MB -> 2.2 MB.
+- 17 tests pass (two new: unchanged-catalog restart, All collections dedupe).
+
 ## 2026-10-19 — Initial independent local asset/environment studio
 
 - **Signed:** Codex (OpenAI).

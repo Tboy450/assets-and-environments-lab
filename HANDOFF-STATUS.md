@@ -20,4 +20,4 @@ Local public-site/ still contains the prepared cleanup changes in its separate r
 
 Read HANDOFF.md and AGENTS.md. The runnable app and approved media are on GitHub. The crash-corrupted importer has been reconstructed and tested. Personal reports, native imports and device settings remain local.
 
-Optional review follow-ups remain separate work: crash resilience of catalog saves, catalog-history growth, duplicate model entries across collections, and smaller GIF list thumbnails. These were reported in the earlier review and were not changed by this retirement task.
+The four optional review follow-ups (crash-safe catalog saves, catalog-history growth, duplicate model entries in All collections, smaller GIF list thumbnails) were completed on 2026-10-22; see CHANGELOG.md. After adding or changing a public GIF, run `python -P scripts/make-gif-thumbnails.py` before scripts/build-public-showcase.mjs.

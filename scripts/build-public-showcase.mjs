@@ -56,11 +56,14 @@ await splitLargeModels(target);
 const thumbDir=path.join(base,'.runtime','thumbnails');await fs.mkdir(path.join(target,'thumbnails'),{recursive:true});
 const thumbNames=new Set((await fs.readdir(thumbDir)).filter(name=>name.endsWith('.png')&&approved.has(name.slice(0,-4))));
 for(const name of thumbNames)await fs.copyFile(path.join(thumbDir,name),path.join(target,'thumbnails',name));
+// Small animated previews from scripts/make-gif-thumbnails.py; lists show these instead of the full GIF.
+const motionNames=new Set((await fs.readdir(thumbDir)).filter(name=>name.endsWith('.webp')&&approved.has(name.slice(0,-5))));
+for(const name of motionNames)await fs.copyFile(path.join(thumbDir,name),path.join(target,'thumbnails',name));
 const assets=state.assets.filter(a=>!/tools\/blender-portable\//.test(a.relative||'')).map(a=>{
   const key=a.sourceId||a.batchId||'inbox',media=roots.has(key)&&mimeAssets.has(path.extname(a.relative||'').toLowerCase());
   const url=media?'/public-assets/'+key+'/'+a.relative.split('/').map(encodeURIComponent).join('/'):null,animated=media&&/\.gif$/i.test(a.relative);
   // An animated GIF is its own preview; a still PNG capture would hide the animation.
-  return {id:a.id,projectId:a.projectId,name:a.name,filename:a.filename,kind:a.kind,format:a.format,dragonflyPart:a.dragonflyPart,sample:a.sample,terrain:a.terrain,worldType:a.worldType,previewUrl:a.previewUrl,url,relative:media?a.relative:undefined,sourceId:a.sourceId,batchId:a.batchId,creator:a.creator,license:a.license,source:a.source,notes:a.notes,available:a.available,bytes:a.bytes,thumbnailUrl:thumbNames.has(a.id+'.png')?'/thumbnails/'+a.id+'.png':animated?url:null,status:a.kind==='source'?'Native source retained in the local library':animated?'Animated effect · original GIF':'Interactive showcase preview'};
+  return {id:a.id,projectId:a.projectId,name:a.name,filename:a.filename,kind:a.kind,format:a.format,dragonflyPart:a.dragonflyPart,sample:a.sample,terrain:a.terrain,worldType:a.worldType,previewUrl:a.previewUrl,url,relative:media?a.relative:undefined,sourceId:a.sourceId,batchId:a.batchId,creator:a.creator,license:a.license,source:a.source,notes:a.notes,available:a.available,bytes:a.bytes,thumbnailUrl:animated&&motionNames.has(a.id+'.webp')?'/thumbnails/'+a.id+'.webp':thumbNames.has(a.id+'.png')?'/thumbnails/'+a.id+'.png':animated?url:null,status:a.kind==='source'?'Native source retained in the local library':animated?'Animated effect · original GIF':'Interactive showcase preview'};
 });
 // List only collections with at least one public entry, so private-only or test collections stay local.
 const publicProjects=new Set(assets.map(a=>a.projectId));
@@ -78,4 +81,4 @@ const explorer=path.join(target,'studio','explorer.mjs');await fs.writeFile(expl
 const hosting=JSON.parse(await fs.readFile(path.join(base,'public-site','.openai','hosting.json'),'utf8'));hosting.static={directory:'dist'};await fs.writeFile(path.join(base,'public-site','.openai','hosting.json'),JSON.stringify(hosting,null,2)+'\n');
 await fs.writeFile(path.join(base,'public-site','README.md'),'# Asset Explorer public showcase\n\nStatic public showcase with Explorer and Grid layouts. No native archives, device paths or import service are included. Source/license notices are retained.\n');
 let files=0,bytes=0,largest=0;async function verify(folder){for(const e of await fs.readdir(folder,{withFileTypes:true})){const file=path.join(folder,e.name);if(e.isDirectory())await verify(file);else{if(/\.(blend\d*|hip(nc|lc)?|hda(nc|lc)?|zip|7z|bgeo|vdb)$/i.test(e.name))throw new Error('Native source leaked into showcase: '+file);if(/\.(html|mjs|js|css|json|md|txt|xml)$/i.test(e.name)&&/\b[A-Z]:[\\/]Users[\\/]|[\\/]Users[\\/][^\\/\s]+[\\/](OneDrive|Documents|Downloads|Desktop)\b/i.test(await fs.readFile(file,'utf8')))throw new Error('Device path found in public file: '+path.relative(target,file));const s=await fs.stat(file);files++;bytes+=s.size;largest=Math.max(largest,s.size);}}}await verify(target);
-console.log(JSON.stringify({files,bytes,largest,assets:assets.length,thumbnails:thumbNames.size,nativeFilesExcluded:true,devicePathsExcluded:true}));
+console.log(JSON.stringify({files,bytes,largest,assets:assets.length,thumbnails:thumbNames.size,animatedPreviews:motionNames.size,nativeFilesExcluded:true,devicePathsExcluded:true}));

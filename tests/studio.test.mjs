@@ -50,6 +50,17 @@ test('Interrupted imports retain partial data without inventing a completed cata
   assert.equal(store.state.assets.length,0);assert.equal(batch.files.length,0);
   assert.ok((await fs.readdir(path.join(directory,'library','imports',batch.id))).some(name=>name.includes('.partial-')));
 }));
+test('Unchanged catalogs are not rewritten on restart; real changes still keep one history copy',async()=>fixture(async directory=>{
+  const history=()=>fs.readdir(path.join(directory,'data','history'));
+  const first=await new StudioStore(directory).init();await first.createProject('Kept');
+  const before=(await history()).length,catalog=await fs.readFile(first.file,'utf8');
+  const reopened=await new StudioStore(directory).init();await reopened.persist();
+  assert.equal((await history()).length,before);assert.equal(await fs.readFile(first.file,'utf8'),catalog);
+  await reopened.createProject('Changed');
+  assert.equal((await history()).length,before+1);
+  assert.deepEqual(JSON.parse(await fs.readFile(first.file,'utf8')).projects.map(p=>p.name).slice(-2),['Kept','Changed']);
+  assert.deepEqual((await fs.readdir(path.join(directory,'data'))).filter(name=>name.endsWith('.tmp')),[]);
+}));
 test('Seeded copy contains five environment routes and eighteen credited asset routes',()=>{
   const assets=seedAssets();assert.equal(assets.filter(a=>a.kind==='environment').length,5);assert.equal(assets.filter(a=>a.kind==='bundled').length,18);
   assert.equal(new Set(assets.map(a=>a.id)).size,23);assert.ok(assets.every(a=>a.license&&a.creator));
